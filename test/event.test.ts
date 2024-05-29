@@ -30,7 +30,7 @@ describe('integration:Event', () => {
           [functionName]: {
             filename: 'first.zip',
             handler: 'handler.handler',
-            runtime: 'nodejs16.x',
+            runtime: 'nodejs20.x',
           },
         },
         cwd: tmpdir,

@@ -30,7 +30,7 @@ describe('integration:Api-Gateway', () => {
           first: {
             filename: 'first.zip',
             handler: 'handler.handler',
-            runtime: 'nodejs16.x',
+            runtime: 'nodejs20.x',
             route,
             method: 'get',
           },
