@@ -80,9 +80,8 @@ class SAMTemplate {
       this.template.Resources[functionName].Properties.Events = {};
     }
 
-    this.template.Resources[functionName].Properties.Events![
-      routeKey
-    ] = apiEvent;
+    this.template.Resources[functionName].Properties.Events![routeKey] =
+      apiEvent;
 
     this.addAPIGatewayOutput();
   }

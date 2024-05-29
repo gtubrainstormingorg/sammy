@@ -1,6 +1,6 @@
 {
-  "name": "@millihq/sammy",
-  "version": "3.0.0",
+  "name": "howdygo-sammy",
+  "version": "4.0.0",
   "main": "dist/index.js",
   "license": "Apache-2.0",
   "repository": {
@@ -29,13 +29,12 @@
     "@types/jest": "^27.0.1",
     "@types/node": "^12.0.0",
     "@types/node-fetch": "^2.5.8",
-    "@types/rimraf": "^3.0.2",
     "@types/tmp": "^0.2.0",
     "@types/unzipper": "^0.10.3",
     "archiver": "^5.3.1",
     "jest": "^27.1.0",
     "prettier": "^2.2.1",
-    "rimraf": "^3.0.2",
+    "rimraf": "^5.0.7",
     "ts-jest": "^27.0.5",
     "typescript": "^4.4.2"
   },
@@ -44,5 +43,6 @@
   ],
   "engines": {
     "node": ">=14.0.0"
-  }
+  },
+  "packageManager": "yarn@1.22.22"
 }

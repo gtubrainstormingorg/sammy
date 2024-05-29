@@ -42,8 +42,6 @@ jobs:
     steps:
       - name: Setup AWS SAM
         run: |
-          brew tap aws/tap
-          brew install aws-sam-cli
           sam --version
 
       - uses: actions/checkout@v3
