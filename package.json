@@ -1,5 +1,5 @@
 {
-  "name": "@millihq/sammy",
+  "name": "howdygo-sammy",
   "version": "3.0.0",
   "main": "dist/index.js",
   "license": "Apache-2.0",
