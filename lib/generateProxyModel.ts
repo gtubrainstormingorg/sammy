@@ -206,7 +206,6 @@ export async function generateProxySAM({
                   domainName: 's3.local',
                   path: '',
                   authMethod: 'none',
-                  region: 'local',
                 },
               },
               querystring: url.searchParams.toString(),
