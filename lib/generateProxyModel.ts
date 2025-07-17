@@ -32,7 +32,8 @@ interface Props {
     | 'nodejs14.x'
     | 'nodejs16.x'
     | 'nodejs18.x'
-    | 'nodejs20.x';
+    | 'nodejs20.x'
+    | 'nodejs22.x';
   onData?: (data: any) => void;
   onError?: (data: any) => void;
   cliOptions?: SAMLocalLambadCLIOptions;

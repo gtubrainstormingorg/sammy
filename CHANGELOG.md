@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.1.0 (July 17, 2025)
+
+- Add support for Node.js `16+`
+
 ## 3.0.0 (Mai 20, 2022)
 
 - Adds support for `nodejs16.x` Lambda runtime ([#14](https://github.com/milliHQ/sammy/pull/14))
