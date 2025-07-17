@@ -3,7 +3,8 @@ type LambdaRuntime =
   | 'nodejs14.x'
   | 'nodejs16.x'
   | 'nodejs18.x'
-  | 'nodejs20.x';
+  | 'nodejs20.x'
+  | 'nodejs22.x';
 
 export interface ServerLessFunctionAPIEvent {
   Type: 'Api' | 'HttpApi';
